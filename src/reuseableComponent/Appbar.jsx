@@ -114,7 +114,7 @@ export default function Appbar({history}) {
     <div className={classes.grow}>
       <AppBar 
       position="static"
-      style={{ backgroundColor: '#ab47bc' }}>
+      style={{ backgroundColor: '#ab47bc'}}>
         <Toolbar>
 
           <Typography className={classes.title} variant="h6" noWrap>

@@ -2,29 +2,16 @@
     display: flex;
     justify-content: center;
 }
+
 .image{
-    background:url('../images/brain.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-size: center;
-    width:50%;
-    height: 60vh;
+    margin-left: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 50px;
-}
-.aboutus-img{
-    background:url('../images/aboutusvector.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: center;
-    width:45%;
-    height: 80vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .outer-con{
     justify-content: center;
@@ -63,4 +50,16 @@
     flex-direction: column;
     margin-top: 30px;
     padding: 30px;
+}
+.home-outer-div{
+    display: flex;
+    justify-content:space-evenly;
+}
+.text-div{
+    width:45%;
+    height: 70vh;
+    flex-direction: column;
+    margin-top: 90px;
+    padding: 30px;
+    margin-left: 50px;
 }
