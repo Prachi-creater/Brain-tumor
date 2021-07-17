@@ -5,12 +5,18 @@ import TextField from '@material-ui/core/TextField'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
+import 'axios';
 
 
   
 
 
 export default function Services(){
+
+
+    const changeHandler = (event)=>{
+     console.log(event.target)
+    }
 
     return(
         <div>
@@ -19,10 +25,11 @@ export default function Services(){
             <div className='container'>
             <h1>Upload MRI Scan Image</h1>
             <TextField id="outlined-basic"  variant="outlined" type='file'
+           onChange={changeHandler}
            />
             <br></br>
             <br></br>
-            <Button variant="contained" color="secondary">
+            <Button variant="contained" color="secondary" >
         Submit
       </Button>
             
